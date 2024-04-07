@@ -3,17 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title>WEB1 - Welcome</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1><a href="index.html" target="">WEB</a></h1>
-        <ol>
-            <li><a href="1.html" target="">HTML</a></li>
-            <li><a href="2.html" target="">CSS</a></li>
-            <li><a href="3.html" target="">JavaScript</a></li>
-        </ol>
-        <h2>HTML</h2>
-        <p><a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" title="Wikipedia에서 자세히 알아보기">The World Wide Web</a>(WWW or simply the Web) is an information system that enables content sharing over the Internet through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists. It allows documents and other web resources to be accessed over the Internet according to specific rules of the HyperText Transfer Protocol(HTTP).
-        <br>The Web was invented by English computer scientist Tim Berners-Lee while at CERN in 1989 and opened to the public in 1991. It was conceived as a "universal linked information system". Documents and other media content are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through character strings called Uniform Resource Locators(URLs).</p>
-        <img src="Moon and Earth.jpg" width="100%" alt="Moon">
+        <h1><a href="index.html" style="color:black; text-decoration: none;" target="">WEB</a></h1>
+        <div id="grid">
+            <ol>
+                <li><a href="1.html" target="">HTML</a></li>
+                <li><a href="2.html" target="">CSS</a></li>
+                <li><a href="3.html" target="">JavaScript</a></li>
+            </ol>
+            <div id="article">
+                <h2 style="margin-top: 0px;">시청각 자료</h2>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE?si=EAWax-_-vvScNuI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+                <h2>WEB</h2>
+                <p><a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" title="Wikipedia에서 자세히 보기">The World Wide Web</a>(WWW or simply the Web) is an information system that enables content sharing over the Internet through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists. It allows documents and other web resources to be accessed over the Internet according to specific rules of the HyperText Transfer Protocol(HTTP).<br>The Web was invented by English computer scientist Tim Berners-Lee while at CERN in 1989 and opened to the public in 1991. It was conceived as a "universal linked information system". Documents and other media content are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through character strings called Uniform Resource Locators(URLs).</p>
+                <img src="Moon and Earth.jpg" width="100%" alt="Moon">
+            </div>
+        </div>
     </body>
 </html>
